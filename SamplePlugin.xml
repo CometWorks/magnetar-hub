@@ -6,7 +6,7 @@
     <Id>00000000-0000-0000-0000-000000000000</Id>
 
     <!-- GitHub repository ID -->
-    <RepoId>viktor-ferenczi/se-server-plugin-template</RepoId>
+    <RepoId>todo-github-user/project-name</RepoId>
 
     <!-- The name of your plugin that will appear in the plugin list -->
     <FriendlyName>TODO Your Plugin Name</FriendlyName>
@@ -44,6 +44,14 @@
     <DependencyIds>
       <Id>TODO ID of the plugin this one depends on</Id>
     </DependencyIds> 
+    -->
+
+    <!-- Optional tag that restricts the plugin to specific runtimes (case sensitive: NETFramework, NETCoreApp). List multiple, comma separated. If omitted, the runtime is detected from the compiled assembly.
+    <Runtimes>NETFramework,NETCoreApp</Runtimes>
+    -->
+
+    <!-- Optional tag that restricts the plugin to specific platforms (case sensitive: Windows, Linux). List multiple, comma separated. If omitted, the plugin loads on all platforms.
+    <Platforms>Windows,Linux</Platforms>
     -->
 
     <!-- Optional tag that specifies whether the plugin is hidden. Hidden plugins cannot be selected from the menu and are intended to be used as dependencies. -->
