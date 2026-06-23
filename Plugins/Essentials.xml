@@ -43,6 +43,6 @@ Essentials by TorchAPI: https://github.com/TorchAPI/Essentials
     </SourceDirectories>
 
     <!-- The current plugin version's commit hash -->
-    <Commit>cf9a96ed7a31ac447df13dec0ae5ba8097881332</Commit>
+    <Commit>1f5a56561c4a8e4ab4a2cf950d201e53024e6cb0</Commit>
 
 </PluginData>
