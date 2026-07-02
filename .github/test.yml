@@ -8,7 +8,7 @@ on:
   
 jobs:
   xml-check:
-    if: github.repository == 'viktor-ferenczi/PluginHub-DS'
+    if: github.repository == 'CometWorks/magnetar-hub'
     runs-on: ubuntu-latest
 
     steps:
