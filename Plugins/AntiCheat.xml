@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<PluginData xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="GitHubPlugin">
+
+    <Id>2671944D-7664-4AFE-8FD8-6FCAB63A0EFB</Id>
+
+    <RepoId>CometWorks/anti-cheat</RepoId>
+
+    <FriendlyName>Anti-Cheat</FriendlyName>
+
+    <Author>OwendB</Author>
+
+    <Tooltip>Server-side anti-cheat guards and admin audit logging</Tooltip>
+
+    <Description>
+Anti-Cheat is a Magnetar server plugin for Space Engineers dedicated servers.
+It adds configurable server-side enforcement around malformed client RPCs,
+validation failures, oversized payloads, and admin creative-tool activity.
+
+Current protections include toolbar request validation, camera-setting bounds,
+GPS and faction payload length caps, social-list and known-sector overflow
+guards, and escalation for repeated validation failures.
+
+The admin audit module logs creative tools toggles, creative/admin block
+placement, and creative-mode welding activity so staff actions leave a clear
+server-side trail.
+</Description>
+
+    <SourceDirectories>
+        <Directory>ServerPlugin</Directory>
+        <Directory>Shared</Directory>
+    </SourceDirectories>
+
+    <Commit>61c3b9a87ea83dffd92a86a9f2fde7c650ec9152</Commit>
+
+</PluginData>
