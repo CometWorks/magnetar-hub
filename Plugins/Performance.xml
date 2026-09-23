@@ -32,7 +32,12 @@ Please consider supporting my work on Patreon: https://www.patreon.com/semods
         <Directory>Shared</Directory>
     </SourceDirectories>
 
+    <!-- Newer ImageSharp than the game ships, used by the image loading fix -->
+    <NuGetReferences>
+        <PackageReference Include="SixLabors.ImageSharp" Version="2.1.13" />
+    </NuGetReferences>
+
     <!-- The current plugin version's commit hash -->
-    <Commit>ab8cdabd80c8555462b5ad6107f04dd6af2bf0ac</Commit>
+    <Commit>3c6179cf62bf78a98b59fca0ed3e7b2a79e64d8e</Commit>
 
 </PluginData>
