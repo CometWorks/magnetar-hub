@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<PluginData xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="GitHubPlugin">
+
+    <Id>A77D81C6-222D-4D5E-8DB1-4DD23A5C6E3B</Id>
+    <RepoId>CometWorks/bugfixes</RepoId>
+    <FriendlyName>Bugfixes</FriendlyName>
+    <Author>CometWorks</Author>
+
+    <Tooltip>Fixes long standing bugs may never be fixed in the vanilla Dedicated Server.</Tooltip>
+
+    <Description>
+        Fixes long standing bugs may never be fixed in the vanilla Dedicated Server.
+
+        Bugs fixed:
+        - Crash in Havok's end-of-step contact callbacks after a contact listener is detached (doors vs missiles)
+    </Description>
+
+    <SourceDirectories>
+        <Directory>ServerPlugin</Directory>
+        <Directory>Shared</Directory>
+    </SourceDirectories>
+
+    <Commit>ea3db4fbfa95f0452ac569af97e202e0741ef682</Commit>
+
+</PluginData>
