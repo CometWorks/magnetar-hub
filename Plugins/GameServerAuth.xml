@@ -17,7 +17,7 @@
     <Tooltip>Discord-backed server access control for Magnetar.</Tooltip>
 
     <!-- Optional plugin description. If omitted, this will be the same as the Tooltip. 1000 characters max. -->
-    <Description>GameServerAuth connects Space Engineers dedicated servers to the Game Server Auth service. Players link Discord and Steam accounts, then authorize in-game with chat commands. Server owners can manage role-based join access, promotion levels, reserved slots, and cluster lobby redirects from the web control plane.</Description>
+    <Description>GameServerAuth connects Space Engineers dedicated servers to the Game Server Auth service. Players link Discord and Steam accounts, then authorize in-game with chat commands. Server owners can manage role-based join access, promotion levels, reserved slots, and cluster lobby redirects from the web control plane. Native cluster nodes report stable per-node identities automatically.</Description>
 
     <!-- Only source code in the Directory entries listed in SourceDirectories is compiled. Exclude any test projects or similar. -->
     <SourceDirectories>
@@ -55,7 +55,7 @@
     -->
 
     <!-- The current plugin version's commit hash -->
-    <Commit>25a88e01fe8e53b3d499a2cf44047187605082e8</Commit>
+    <Commit>9f269deda9da1b526175042665b3dba6616a6666</Commit>
 
     <!-- Optional list of alternate versions of the plugin, use it for test or custom builds
     <AlternateVersions>
