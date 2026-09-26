@@ -29,8 +29,9 @@ the plugin and check its status.
 
 Configurable options include per-player slot limits, save cooldowns, block and
 PCU caps per entry, optional inclusion of connected subgrids, ownership
-transfer on load, majority-ownership checks, and a centralized Quasar-managed
-storage path. Built on the Magnetar PluginSdk with its UI rendered by Quasar.
+transfer on load and majority-ownership checks. Cluster processes use
+Magnetar PluginSdk shared storage automatically; standalone storage can
+use a configured path. The PluginSdk UI is rendered by Quasar.
 
 Functionality is inspired by and reimplements the original Torch plugin
 QuantumHangar by Casimir255 (license: Apache-2.0):
@@ -44,6 +45,6 @@ https://github.com/Casimir255/QuantumHangar)
     </SourceDirectories>
 
     <!-- The current plugin version's commit hash -->
-    <Commit>53fe29629ec26455b0706f3e460a1a0975c7a522</Commit>
+    <Commit>1943ea82731b622cfba12cee52a28c17a83c0ac8</Commit>
 
 </PluginData>
