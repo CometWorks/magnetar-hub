@@ -20,8 +20,8 @@
     <Description>
 GridBackups is a Magnetar server plugin that exports ship and station grid
 blueprints on configurable triggers — interval, steady-state, change
-thresholds, and pre-concealment — and stores them in a shared Quasar data
-folder so backups aren't tied to a single managed Magnetar host.
+thresholds, and pre-concealment. Standalone backups use Quasar data by
+default; cluster backups use Magnetar PluginSdk shared storage automatically.
 
 Supports connected-grid grouping, owner-named folders, NPC/nobody filtering,
 retention limits, the !gridbackup chat commands, and an external API for other
@@ -39,6 +39,6 @@ https://github.com/LordTylus/SE-Torch-Plugin-ALE-GridBackup
     </SourceDirectories>
 
     <!-- The current plugin version's commit hash -->
-    <Commit>76127e8eed9bfabaf2910fe756e7e30ee4bb4fa4</Commit>
+    <Commit>66ccb49da1bb92fa9f9a78be6a4ce1c629db5cba</Commit>
 
 </PluginData>
