@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
-<!-- Rollout draft: replace the empty Commit with the reviewed, merged plugin source commit,
-     then rename to ErrorReporting.xml. Coordinate the matching PluginSdk using Docs/DiagnosticRollout.md. -->
+<!-- Reviewed plugin source; publish this registration before releasing the matching
+     mandatory-plugin launcher. Coordinate the SDK using Docs/DiagnosticRollout.md. -->
 <PluginData xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="GitHubPlugin">
     <Id>error-reporting</Id>
     <RepoId>CometWorks/error-reporting</RepoId>
@@ -16,5 +16,5 @@ Requires the Magnetar PluginSdk that exposes PluginSdk.Logging.Logger.EntryEmitt
     <Runtimes>CLR,CoreCLR</Runtimes>
     <Platforms>Windows,Linux</Platforms>
     <Hidden>true</Hidden>
-    <Commit />
+    <Commit>4629caff434e35312e8c99c776e364e392142d5d</Commit>
 </PluginData>

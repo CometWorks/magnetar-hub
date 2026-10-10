@@ -1,28 +1,26 @@
 # Error Reporting rollout
 
-`Plugins/ErrorReporting.xml.pending` is an inactive registration draft. Its empty `Commit`
-is intentional: the implementation and matching PluginSdk changes require coordinated review and release.
-The original error-reporting main branch contains a template, so pinning that revision would not provide
-the capture API required by the new launcher. No future or nonexistent commit is represented here.
-The hub's XML scan ignores the `.pending` extension.
+`Plugins/ErrorReporting.xml` pins the actual reviewed error-reporting implementation
+`4629caff434e35312e8c99c776e364e392142d5d`, merged in
+[error-reporting PR #2](https://github.com/CometWorks/error-reporting/pull/2).
+This registration remains in a draft PR while the matching SDK is reviewed.
+The source was compiled against the coordinated SDK for both net48 and net10.0;
+the original template revision is not used.
 
-Activate the registration only after these steps:
+Complete rollout in this order:
 
-1. Merge and publish the reviewed `CometWorks/error-reporting` server implementation with
-   `Preloader.Initialize` and bounded local capture. Record its actual complete commit SHA.
-2. Merge the matching Magnetar SDK/launcher changes, including `Logger.EntryEmitted`, early
-   required-plugin initialization and the System.Text.Json compiler reference. Prepare the
-   corresponding launcher release without exposing a launcher whose required plugin is unavailable.
-3. Replace the empty `Commit` in the draft with the real merged plugin SHA, verify that source
-   builds on the matching SDK for .NET Framework and CoreCLR, and rename it to `ErrorReporting.xml`.
-   Run `python3 test.py Plugins/` and review the manifest through the normal hub process.
-   From the matching Magnetar source checkout, run
-   `bash Build/validate-error-reporting.sh /path/to/error-reporting` to compile both targets
-   and record exact SDK/plugin hashes. Compilation on Linux does not replace the Windows
-   .NET Framework runtime check; the Magnetar Windows workflow runs both SDK test targets.
-4. Publish the hub registration before releasing the launcher that requires it. Ship the same
-   compiled plugin and matching SDK in offline/managed deployment bundles; test clean-install and
-   offline startup so the mandatory plugin never relies on an unavailable source pin.
+1. Review the matching Magnetar 2.4.3.2 SDK/launcher changes, including
+   `Logger.EntryEmitted`, early required-plugin initialization and the System.Text.Json
+   compiler reference. Avoid publishing the mandatory-plugin launcher before its
+   hub registration is available.
+2. Run `python3 test.py Plugins/` and review the manifest through the normal hub
+   process. From the matching Magnetar checkout run
+   `bash Build/validate-error-reporting.sh /path/to/error-reporting` to compile both
+   targets and record exact SDK/plugin hashes. Linux compilation does not replace
+   Windows .NET Framework runtime testing.
+3. Publish this hub registration before releasing the launcher that requires it.
+   Ship the same compiled plugin and matching SDK in offline/managed bundles;
+   verify clean-install and offline startup before exposing the new launcher.
 
 The source directory deliberately includes only `ServerPlugin`: no client template, tests or
 Diagnostics transport package belongs in the server plugin compilation. The implementation uses
