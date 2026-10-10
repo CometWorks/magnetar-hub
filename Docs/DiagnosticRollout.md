@@ -38,9 +38,10 @@ archives and `release-manifest.json`. The native-wrapper PR must land before thi
 rollout is completed.
 
 After its public release exists, take the SE1 runtime asset URL and SHA-256 from
-that release's manifest and update `NativeWrappers` in both `Plugins/LinuxCompat.xml`
-and `Plugins/LinuxCompatLegacyId.xml`. Keep both aliases on the same URL/checksum and
-verify the downloaded archive's hash. Retain `se1-native-wrappers.symbols.tar.gz` from
+that release's manifest and update `NativeWrappers` in `Plugins/LinuxCompat.xml` and verify the downloaded
+archive's hash. `Plugins/LinuxCompatLegacyId.xml` is a compatibility registration
+without a native asset declaration; preserve that contract rather than adding a
+second asset loader just for diagnostics. Retain `se1-native-wrappers.symbols.tar.gz` from
 the same release for analysis; a Debug build or another release's symbols will not
 match. Never use a local rebuild's hash as the checksum of a future release.
 

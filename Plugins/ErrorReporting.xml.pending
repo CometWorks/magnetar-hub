@@ -13,7 +13,7 @@ Requires the Magnetar PluginSdk that exposes PluginSdk.Logging.Logger.EntryEmitt
     <SourceDirectories>
         <Directory>ServerPlugin</Directory>
     </SourceDirectories>
-    <Runtimes>NETFramework,NETCoreApp</Runtimes>
+    <Runtimes>CLR,CoreCLR</Runtimes>
     <Platforms>Windows,Linux</Platforms>
     <Hidden>true</Hidden>
     <Commit />
