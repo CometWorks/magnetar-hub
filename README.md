@@ -17,3 +17,6 @@ If you wish to make a plugin for Quasar, there are a few steps:
    It is perfectly okay to initially work in a private repository, put you must set the repository public to get a review.
 3. Add your XML plugin descriptor file to the `Plugins` folder in this repository. Example file: [SamplePlugin.xml](SamplePlugin.xml)
 4. Submit a pull request. The approval team will approve or deny it.
+
+The pending Error Reporting registration and coordinated plugin/SDK rollout are described in
+[DiagnosticRollout.md](Docs/DiagnosticRollout.md). Its `.xml.pending` draft is not an active hub entry.
