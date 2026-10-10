@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<!-- Reviewed plugin source; publish this registration before releasing the matching
+     mandatory-plugin launcher. Coordinate the SDK using Docs/DiagnosticRollout.md. -->
+<PluginData xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="GitHubPlugin">
+    <Id>error-reporting</Id>
+    <RepoId>CometWorks/error-reporting</RepoId>
+    <FriendlyName>Error Reporting</FriendlyName>
+    <Author>CometWorks</Author>
+    <Tooltip>Required local server error and crash evidence capture</Tooltip>
+    <Description>Required support plugin loaded by Magnetar. Captures bounded local Error/Critical logs and fatal exceptions.
+External report sharing and crash-dump consent are controlled separately by Quasar.
+Requires the Magnetar PluginSdk that exposes PluginSdk.Logging.Logger.EntryEmitted.</Description>
+    <SourceDirectories>
+        <Directory>ServerPlugin</Directory>
+    </SourceDirectories>
+    <Runtimes>CLR,CoreCLR</Runtimes>
+    <Platforms>Windows,Linux</Platforms>
+    <Hidden>true</Hidden>
+    <Commit>4629caff434e35312e8c99c776e364e392142d5d</Commit>
+</PluginData>
