@@ -3,7 +3,7 @@
 `Plugins/ErrorReporting.xml` pins the actual reviewed error-reporting implementation
 `4629caff434e35312e8c99c776e364e392142d5d`, merged in
 [error-reporting PR #2](https://github.com/CometWorks/error-reporting/pull/2).
-This registration remains in a draft PR while the matching SDK is reviewed.
+The registration and matching Magnetar SDK/launcher have been merged.
 The source was compiled against the coordinated SDK for both net48 and net10.0;
 the original template revision is not used.
 
@@ -29,23 +29,21 @@ Required installation does not grant external diagnostic or dump consent.
 
 ## LinuxCompat native-wrapper rollout
 
-The wrapper build workflow assigns a new `v1.0.<run_number>` release on merge; do not
-reuse v1.0.51 (the current latest release) or the older v1.0.46 asset currently pinned
-in the hub. The diagnostics PR adds optimized runtime archives, matching split-symbol
-archives and `release-manifest.json`. The native-wrapper PR must land before this
-rollout is completed.
+The merged wrapper diagnostics changes are published as **v1.0.55**, source commit
+`393f5b07cb30ef494c4b955fbbb39864a39561f7`. `Plugins/LinuxCompat.xml` pins
+`https://github.com/CometWorks/linux-native-wrappers/releases/download/v1.0.55/se1-native-wrappers.tar.gz`
+with SHA-256 `39635a2c33a28cf0c5fafe9a2ba7d1224caf77994b79de1dfb3ba6a75e30005c`.
+The downloaded runtime archive matches both the release manifest and the GitHub
+asset digest. It replaces the previous v1.0.46 asset.
 
-After its public release exists, take the SE1 runtime asset URL and SHA-256 from
-that release's manifest and update `NativeWrappers` in `Plugins/LinuxCompat.xml` and verify the downloaded
-archive's hash. `Plugins/LinuxCompatLegacyId.xml` is a compatibility registration
-without a native asset declaration; preserve that contract rather than adding a
-second asset loader just for diagnostics. Retain `se1-native-wrappers.symbols.tar.gz` from
-the same release for analysis; a Debug build or another release's symbols will not
-match. Never use a local rebuild's hash as the checksum of a future release.
+Retain the same release's `se1-native-wrappers.symbols.tar.gz` for crash analysis;
+its SHA-256 is `2e078a9bb3fde3f077b59e8c1c5b9b1a5c98965daa08c547092b4b716fb4afbe`.
+The symbols match the optimized runtime build; another release or a Debug build
+is unsuitable. `Plugins/LinuxCompatLegacyId.xml` remains a compatibility
+registration without a native asset declaration.
 
 LinuxCompat already loads these libraries through the existing asset contract, and
 Quasar.Host captures the exact supervised process identity independently. No
 LinuxCompat source/version bump is required merely to consume a newer native-wrapper
 asset. If LinuxCompat source later changes, publish and pin that source separately.
-Until the new wrapper release is available, this draft preserves the existing
-working LinuxCompat manifests and must remain a rollout prerequisite.
+Publish this hub asset-pin update to roll the released native binaries into LinuxCompat installations.
