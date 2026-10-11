@@ -20,7 +20,7 @@ It is added by Magnetar automatically on demand.</Description>
     </SourceDirectories>
 
     <Asset Name="LinuxDependencies"
-           Url="https://github.com/CometWorks/linux-dependencies/releases/download/v1.0.33/se1-dependencies.tar.gz"
+           Url="https://github.com/CometWorks/linux-dependencies/releases/download/v1.0.35/se1-dependencies.tar.gz"
            Sha256="65d25ba6d2d2d52783dd7a74cbeda8dfede93032fe46edbfe065eef50004ffc8"
            Extract="true"
            Placement="Bin" />
@@ -36,6 +36,6 @@ It is added by Magnetar automatically on demand.</Description>
 
     <Hidden>true</Hidden>
 
-    <Commit>7d9cda7f296a4ae2e1e8677ecf3f118db8b1d94d</Commit>
+    <Commit>d1f530507b02bc70d57fc6559ea5995e781b7399</Commit>
 
 </PluginData>
