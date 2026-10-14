@@ -14,7 +14,7 @@ Requires the Magnetar PluginSdk that exposes PluginSdk.Logging.Logger.EntryEmitt
         <Directory>ServerPlugin</Directory>
     </SourceDirectories>
     <Runtimes>CLR,CoreCLR</Runtimes>
-    <Platforms>Windows,Linux</Platforms>
+    <Platforms>Windows,Linux,Proton</Platforms>
     <Hidden>true</Hidden>
     <Commit>4629caff434e35312e8c99c776e364e392142d5d</Commit>
 </PluginData>

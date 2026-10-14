@@ -50,7 +50,7 @@
     <Runtimes>CLR,CoreCLR</Runtimes>
     -->
 
-    <!-- Optional tag that restricts the plugin to specific platforms (case sensitive: Windows, Linux). List multiple, comma separated. If omitted, the plugin loads on all platforms.
+    <!-- Optional tag that restricts the plugin to specific platforms (case sensitive: Windows, Linux, Proton). List multiple, comma separated. If omitted, the plugin loads on all platforms.
     <Platforms>Windows,Linux</Platforms>
     -->
 
