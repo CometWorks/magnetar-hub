@@ -38,6 +38,6 @@ BlockLimiter by N1Ran: https://github.com/N1Ran/BlockLimiter
     </SourceDirectories>
 
     <!-- The current plugin version's commit hash -->
-    <Commit>ddf348f57f0e4d2e4ac284d4bce8b1bbb858b630</Commit>
+    <Commit>2faea6dfdbcd30be751c5b8c2405d06e895f595f</Commit>
 
 </PluginData>
