@@ -18,19 +18,19 @@
 
     <!-- Optional plugin description. If omitted, this will be the same as the Tooltip. 1000 characters max. -->
     <Description>
-GridBackups is a Magnetar server plugin that exports ship and station grid
-blueprints on configurable triggers — interval, steady-state, change
-thresholds, and pre-concealment. Standalone backups use Quasar data by
-default; cluster backups use Magnetar PluginSdk shared storage automatically.
+        GridBackups is a Magnetar server plugin that exports ship and station grid
+        blueprints on configurable triggers — interval, steady-state, change
+        thresholds, and pre-concealment. Standalone backups use Quasar data by
+        default; cluster backups use Magnetar PluginSdk shared storage automatically.
 
-Supports connected-grid grouping, owner-named folders, NPC/nobody filtering,
-retention limits, the !gridbackup chat commands, and an external API for other
-plugins to request backups directly.
+        Supports connected-grid grouping, owner-named folders, NPC/nobody filtering,
+        retention limits, the !gridbackup chat commands, and an external API for other
+        plugins to request backups directly.
 
-Functionality is inspired by and reimplements the original Torch plugin
-GridBackup by LordTylus (license: Apache-2.0):
-https://github.com/LordTylus/SE-Torch-Plugin-ALE-GridBackup
-</Description>
+        Functionality is inspired by and reimplements the original Torch plugin
+        GridBackup by LordTylus (license: Apache-2.0):
+        https://github.com/LordTylus/SE-Torch-Plugin-ALE-GridBackup
+    </Description>
 
     <!-- Only source code in the Directory entries listed in SourceDirectories is compiled. Exclude any test projects or similar. -->
     <SourceDirectories>
@@ -39,6 +39,6 @@ https://github.com/LordTylus/SE-Torch-Plugin-ALE-GridBackup
     </SourceDirectories>
 
     <!-- The current plugin version's commit hash -->
-    <Commit>66ccb49da1bb92fa9f9a78be6a4ce1c629db5cba</Commit>
+    <Commit>218efb64c204524f486a242a70a97342270dd2c3</Commit>
 
 </PluginData>
