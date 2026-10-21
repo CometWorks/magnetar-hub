@@ -5,6 +5,8 @@ on:
   pull_request:
     paths: 
     - 'Plugins/**'
+    - 'test.py'
+    - '.github/workflows/test.yml'
   
 jobs:
   xml-check:
