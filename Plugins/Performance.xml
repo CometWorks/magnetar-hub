@@ -38,6 +38,6 @@ Please consider supporting my work on Patreon: https://www.patreon.com/semods
     </NuGetReferences>
 
     <!-- The current plugin version's commit hash -->
-    <Commit>0d8e128b7b34bd275b7818dfba04a9ab30d73ad2</Commit>
+    <Commit>1ab31236ae1bf2bc6e35aaca63464268620c20e3</Commit>
 
 </PluginData>
