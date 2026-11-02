@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<PluginData xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="GitHubPlugin">
+    <Id>66AA3D09-1732-445D-A2B6-A377B31AE76C</Id>
+    <RepoId>CometWorks/impostors</RepoId>
+    <FriendlyName>Impostors</FriendlyName>
+    <Author>Viktor</Author>
+    <Tooltip>Shows far grids and asteroids beyond the sync distance as impostors</Tooltip>
+    <Description>
+        Shows grids and asteroids beyond the sync distance as impostors: coarse colored model
+        built on the server from block and voxel data. Players see them through the Impostors mod,
+        which has to be added to the world. No client plugin is needed.
+    </Description>
+    <SourceDirectories>
+        <Directory>ServerPlugin</Directory>
+        <Directory>Shared</Directory>
+        <Directory>ImpostorsMod/Mod/Data/Scripts/Impostors/Common</Directory>
+    </SourceDirectories>
+    <Commit>e7a5658eea0fada3d45a35ff18ffda5080a94bc1</Commit>
+</PluginData>
