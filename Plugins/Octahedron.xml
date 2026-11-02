@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<PluginData xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="GitHubPlugin">
+    <Id>F7FB710B-7B41-45D6-B05C-A01DDE0FEE3A</Id>
+    <RepoId>CometWorks/worlds</RepoId>
+    <FriendlyName>Octahedron</FriendlyName>
+    <Author>CometWorks</Author>
+    <Tooltip>Server rules of the Octahedron world</Tooltip>
+    <Description>
+        Server rules that only the Octahedron world uses: the economy stations' refill,
+        refill containers, braking at the world's edge, starter ships from the
+        stations' hologram tables, block limits for welded projections, a PCU cap per
+        ship or station, shipyard welding in the stations' safe zones, ships ordered
+        from the shipyards, a real account for the stations' faction with a daily
+        wealth tax and an hourly dividend, its prices and stock at the stations' Store
+        blocks, contracts posted and paid by that faction, a
+        partitioning-friendly spawn pattern for Modular Encounters Systems, and (on
+        hold) the NPC encounters spawned from the plugin's own blueprints.
+    </Description>
+    <SourceDirectories>
+        <Directory>octahedron/plugin/ServerPlugin</Directory>
+    </SourceDirectories>
+    <!-- The encounters' spawn groups and blueprints; Magnetar copies the folder into its
+         plugin cache and passes it to Plugin.LoadAssets -->
+    <Asset Name="AssetFolder" Path="octahedron/plugin/Encounters" />
+    <Hidden>true</Hidden>
+    <Commit>d8dad7e11c1b742a8c7dd9f91d750c35ee688fd1</Commit>
+</PluginData>
