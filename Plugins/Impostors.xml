@@ -15,5 +15,5 @@
         <Directory>Shared</Directory>
         <Directory>ImpostorsMod/Mod/Data/Scripts/Impostors/Common</Directory>
     </SourceDirectories>
-    <Commit>e7a5658eea0fada3d45a35ff18ffda5080a94bc1</Commit>
+    <Commit>feab90ebd52cf3dac26c60b29fe809471935e771</Commit>
 </PluginData>
