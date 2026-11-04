@@ -28,6 +28,7 @@
 
     <DependencyIds>
         <Id>direct-transport</Id>
+        <Id>C88741F0-0AA5-4263-BD78-5D21467A84D3</Id>
     </DependencyIds>
 
     <Runtimes>CoreCLR</Runtimes>
@@ -35,6 +36,6 @@
 
     <Hidden>true</Hidden>
 
-    <Commit>fbfc36b636c5f101a65b006d4f699cf338a26187</Commit>
+    <Commit>cb93d481b60c605872314ea6a3832262cfb3a0dc</Commit>
 
 </PluginData>
