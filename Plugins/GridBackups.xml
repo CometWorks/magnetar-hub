@@ -25,7 +25,9 @@
 
         Supports connected-grid grouping, owner-named folders, NPC/nobody filtering,
         retention limits, the !gridbackup chat commands, and an external API for other
-        plugins to request backups directly.
+        plugins to request backups directly. It also logs lost grids and answers
+        Quasar's companion requests for a player's grids, backups, losses and
+        restores, which the Quasar Assistant uses.
 
         Functionality is inspired by and reimplements the original Torch plugin
         GridBackup by LordTylus (license: Apache-2.0):
@@ -39,6 +41,6 @@
     </SourceDirectories>
 
     <!-- The current plugin version's commit hash -->
-    <Commit>d5c60dc955bc92acb8f073c6fca938281b1f0f2e</Commit>
+    <Commit>fe1c9e0849908b54319749ffc7d3c763829d9476</Commit>
 
 </PluginData>
