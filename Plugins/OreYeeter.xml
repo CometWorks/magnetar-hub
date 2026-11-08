@@ -32,5 +32,5 @@ Also available as a Torch plugin, both builds share the same code.
     </SourceDirectories>
 
     <!-- TODO: the commit hash of the version to publish -->
-    <Commit>b3f3dd25cde719e65816797a393416f0eadf4511</Commit>
+    <Commit>2dd35404dc50e1294056ec71e9e775d495cce2e1</Commit>
 </PluginData>
