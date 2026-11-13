@@ -41,6 +41,6 @@ BlockLimiter by N1Ran: https://github.com/N1Ran/BlockLimiter
     </SourceDirectories>
 
     <!-- The current plugin version's commit hash -->
-    <Commit>1403ed89dd127efc8f42ffce48c7f4149afc507a</Commit>
+    <Commit>245dd2ba0e729a2a1562d0078f1a0199a39b0c4e</Commit>
 
 </PluginData>
