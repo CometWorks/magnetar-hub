@@ -18,11 +18,14 @@ validation failures, oversized payloads, and admin creative-tool activity.
 
 Current protections include toolbar request validation, camera-setting bounds,
 GPS and faction payload length caps, social-list and known-sector overflow
-guards, and escalation for repeated validation failures.
+guards, player color-list validation, ship tool target caps, grinder stockpile
+suppression, ownerless toolbar cleanup, terminal property bounds sanitization,
+and escalation for repeated validation failures.
 
 The admin audit module logs creative tools toggles, creative/admin block
-placement, and creative-mode welding activity so staff actions leave a clear
-server-side trail.
+placement, creative-mode welding, paste/delete/cut, ownership changes, forced
+toolbar cleanup, and terminal value sanitization so staff actions leave a
+clear server-side trail.
 </Description>
 
     <SourceDirectories>
@@ -30,6 +33,6 @@ server-side trail.
         <Directory>Shared</Directory>
     </SourceDirectories>
 
-    <Commit>61c3b9a87ea83dffd92a86a9f2fde7c650ec9152</Commit>
+    <Commit>2cf139a3a4dc96d6d1b141fc56867514acde85ab</Commit>
 
 </PluginData>
