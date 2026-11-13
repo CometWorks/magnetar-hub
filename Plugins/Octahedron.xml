@@ -6,15 +6,18 @@
     <Author>CometWorks</Author>
     <Tooltip>Server rules of the Octahedron world</Tooltip>
     <Description>
-        Server rules that only the Octahedron world uses: the economy stations' refill,
-        refill containers, braking at the world's edge, starter ships from the
-        stations' hologram tables, block limits for welded projections, a PCU cap per
-        ship or station, shipyard welding in the stations' safe zones, ships ordered
-        from the shipyards, a real account for the stations' faction with a daily
-        wealth tax and an hourly dividend, its prices and stock at the stations' Store
-        blocks, contracts posted and paid by that faction, a
-        partitioning-friendly spawn pattern for Modular Encounters Systems, and (on
-        hold) the NPC encounters spawned from the plugin's own blueprints.
+        Server rules that only the Octahedron world uses: the economy stations' refill
+        and refill rules for new and docked ships, refill containers, braking at the
+        world's edge, starter ships from the stations' hologram tables, block limits
+        for welded projections, a PCU cap per ship or station, free ship builds up to
+        30,000 PCU, shipyards with Build, Repair, Grind and Hack modes in their build
+        volume, ships ordered from the shipyards, idle shipyards sweeping garbage, a
+        real account for the stations' faction with a daily wealth tax and an hourly
+        dividend, its prices and stock at the stations' Store blocks, contracts posted
+        and paid by that faction, including server-wide wreck hunts, police alerts and
+        resupply, taxi rides to a GPS point, a partitioning-friendly spawn pattern for
+        Modular Encounters Systems, and (on hold) the NPC encounters spawned from the
+        plugin's own blueprints.
     </Description>
     <SourceDirectories>
         <Directory>octahedron/plugin/ServerPlugin</Directory>
@@ -23,5 +26,5 @@
          plugin cache and passes it to Plugin.LoadAssets -->
     <Asset Name="AssetFolder" Path="octahedron/plugin/Encounters" />
     <Hidden>true</Hidden>
-    <Commit>af69eedbe3e06a1b955ffc74b35f8127f99d98ec</Commit>
+    <Commit>82b97845e229213a830ea3c5cb9c455743bfed00</Commit>
 </PluginData>
