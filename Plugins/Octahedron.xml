@@ -26,5 +26,5 @@
          plugin cache and passes it to Plugin.LoadAssets -->
     <Asset Name="AssetFolder" Path="octahedron/plugin/Encounters" />
     <Hidden>true</Hidden>
-    <Commit>6ec4bedd2aff3c47afff396a3db3a74262db5c3b</Commit>
+    <Commit>5f1a6809d0d143ae029abc4fee695d95eb10c34e</Commit>
 </PluginData>
