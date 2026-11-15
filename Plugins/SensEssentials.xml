@@ -37,5 +37,5 @@ Also available as a Torch plugin.
         <Directory>Versioning</Directory>
     </SourceDirectories>
 
-    <Commit>7d3513cceca7eee1921b30f4583977d51b15ac6d</Commit>
+    <Commit>0b51e8aa912ee98a80e218fbbb0960682931df55</Commit>
 </PluginData>
