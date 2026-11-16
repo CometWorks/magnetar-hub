@@ -26,7 +26,7 @@ It is added by Magnetar automatically on demand.</Description>
            Placement="Bin" />
 
     <Asset Name="NativeWrappers"
-           Url="https://github.com/CometWorks/linux-native-wrappers/releases/download/v1.0.60/se1-native-wrappers.tar.gz"
+           Url="https://github.com/CometWorks/linux-native-wrappers/releases/download/v1.0.72/se1-native-wrappers.tar.gz"
            Sha256="49d75b092a11b5e1f482602a1e338e11a0bd449825c875d0d9779fd958fe354e"
            Extract="true"
            Placement="Bin" />
@@ -36,6 +36,6 @@ It is added by Magnetar automatically on demand.</Description>
 
     <Hidden>true</Hidden>
 
-    <Commit>e48f609e217dce7c68bd5eddddd7afa3cda0e8e7</Commit>
+    <Commit>0ed5783b6061be4a0b4575ac4a834a098d16eb9d</Commit>
 
 </PluginData>
