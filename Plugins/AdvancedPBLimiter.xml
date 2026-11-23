@@ -36,5 +36,5 @@ Also available as a Torch plugin, both builds share the same code.
         <Directory>Versioning</Directory>
     </SourceDirectories>
 
-    <Commit>742414474a8c706fc5434d38f86bfa59aa9a69e9</Commit>
+    <Commit>daccc29bcbdd073c6cbeaeb47db5beabaf5f1a11</Commit>
 </PluginData>
