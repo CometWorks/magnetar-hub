@@ -39,7 +39,7 @@ https://github.com/TorchAPI/Concealment
 </Description>
 
     <!-- Only source code in the Directory entries listed in SourceDirectories is compiled. Exclude any test projects or similar. -->
-    <Runtimes>NETCoreApp</Runtimes>
+    <Runtimes>CoreCLR</Runtimes>
 
     <SourceDirectories>
         <Directory>ServerPlugin</Directory>
