@@ -23,6 +23,8 @@ first. Under load, runs can be deferred instead.
 
 Configure it in Quasar under Server plugins.
 
+Needs Magnetar 2.4.2.1 or later.
+
 Player commands: !PBLimiter Limits, !PBLimiter MyStats, !PBLimiter Runtimes, !PBLimiter About.
 Admin commands: !PBLimiter GetReport, !PBLimiter Enable, !PBLimiter Disable, !PBLimiter requestpbshutdown and more,
 see !PBLimiter help.
@@ -36,5 +38,5 @@ Also available as a Torch plugin, both builds share the same code.
         <Directory>Versioning</Directory>
     </SourceDirectories>
 
-    <Commit>742414474a8c706fc5434d38f86bfa59aa9a69e9</Commit>
+    <Commit>17723dc56149a2f32c59fd98c3b8d5b9ff39b4ba</Commit>
 </PluginData>
